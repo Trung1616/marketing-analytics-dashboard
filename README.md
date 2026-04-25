@@ -9,7 +9,6 @@ The primary goal is to provide a clear and structured view of marketing effectiv
 The system combines data modeling, transformation, and visualization into a unified workflow, enabling both descriptive analytics and basic automated insights.
 
 ---
----
 ## Dataset Description
 
 This project uses a simulated digital marketing dataset that combines campaign performance, website analytics, and customer transaction data.
