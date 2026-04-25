@@ -19,7 +19,7 @@ It is structured to support multi-channel analysis and enable connections betwee
 
 This dataset was designed to mimic real-world marketing behavior for analytical purposes.
 
-Note: The dataset is not real production data. I enriched and expanded the dataset myself using SQL-based data generation techniques to simulate more realistic scenarios, including repeat purchases and varied performance patterns across channels.
+- Note: The dataset is not real production data. I enriched and expanded the dataset myself using SQL-based data generation techniques to simulate more realistic scenarios, including repeat purchases and varied performance patterns across channels.
 ---
 
 ## Live Resources
