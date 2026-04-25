@@ -61,6 +61,9 @@ It integrates data modeling, visualization, and an AI-powered insight layer to s
 ```text
 Raw Data → SQL → Google Sheets → Apps Script (AI) → Looker Dashboard
 ```
+```text
+Raw Data → MySQL → Looker Dashboard
+```
 
 ---
 
