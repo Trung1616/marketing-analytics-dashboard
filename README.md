@@ -9,6 +9,19 @@ The primary goal is to provide a clear and structured view of marketing effectiv
 The system combines data modeling, transformation, and visualization into a unified workflow, enabling both descriptive analytics and basic automated insights.
 
 ---
+---
+## Dataset Description
+
+This project uses a simulated digital marketing dataset that combines campaign performance, website analytics, and customer transaction data.
+
+The dataset includes key metrics such as impressions, clicks, conversions, revenue, cost, CPC, CPA, and ROAS, along with user behavior and customer attributes (e.g., age group, gender, country).
+
+It is structured to support multi-channel analysis and enable connections between campaigns, users, and orders.
+
+This dataset was designed to mimic real-world marketing behavior for analytical purposes.
+
+Note: The dataset is not real production data. I enriched and expanded the dataset myself using SQL-based data generation techniques to simulate more realistic scenarios, including repeat purchases and varied performance patterns across channels.
+---
 
 ## Live Resources
 
