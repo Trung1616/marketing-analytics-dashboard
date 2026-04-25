@@ -1,44 +1,56 @@
-# 📊 AI-Powered Marketing Analytics Dashboard
+# Marketing Analytics Dashboard with AI Insights
 
-## 🚀 Overview
+## Overview
 
-This project is an end-to-end marketing analytics dashboard designed to track performance across campaigns, channels, and customer segments.
+This project presents an end-to-end marketing analytics dashboard designed to monitor performance, analyze user behavior, and evaluate customer value across multiple dimensions.
 
-It integrates data modeling, visualization, and an AI-powered insight layer to support faster and smarter decision-making.
+The primary goal is to provide a clear and structured view of marketing effectiveness, while integrating a lightweight AI-based insight layer to support faster interpretation of campaign performance.
+
+The system combines data modeling, transformation, and visualization into a unified workflow, enabling both descriptive analytics and basic automated insights.
 
 ---
 
-## 🎯 Key Features
+## Live Resources
 
-### 📈 Business & Marketing Performance
+* Looker Studio Dashboard: [https://datastudio.google.com/reporting/4be8c7da-98e5-43d1-9f91-5c3a459cd96f]
+---
+
+## Project Objectives
+
+* Track and evaluate marketing performance across campaigns and channels
+* Analyze traffic quality and user engagement behavior
+* Understand customer value and segmentation patterns
+* Support decision-making through concise, automated insights
+
+---
+
+## Key Capabilities
+
+### Marketing Performance Analysis
 
 * Revenue, Cost, ROAS, CPA tracking
-* Campaign-level performance analysis
-* Channel efficiency comparison
+* Campaign-level and channel-level comparison
+* Performance trends over time
 
-### 🌐 Website Analytics
+### Website and User Behavior
 
-* Sessions & User behavior tracking
-* Bounce Rate & Engagement metrics
-* Traffic quality by channel
+* Sessions and Users analysis
+* Bounce Rate and engagement metrics
+* Traffic quality evaluation by source
 
-### 👥 Customer Analytics
+### Customer Analytics
 
 * Revenue per customer
 * Customer segmentation (High / Mid / Low value)
-* Demographic insights (Age, Gender, Country)
+* Demographic analysis (Age group, Gender, Country)
 
-### 🤖 AI-Powered Insights
+### Insight Automation Layer
 
-* Automatically generates performance insights for each campaign
-* Evaluates:
+* Generates short, structured insights for campaign evaluation
+* Uses key metrics such as ROAS, Conversion Rate, CPC, and CPA
+* Focuses on readability and decision support rather than complex modeling
 
-  * ROAS
-  * Conversion Rate
-  * CPC / CPA
-* Produces short, actionable recommendations
-
-**Example outputs:**
+Example outputs:
 
 * Strong performance, optimize CPA
 * Low ROAS, reduce budget
@@ -46,110 +58,135 @@ It integrates data modeling, visualization, and an AI-powered insight layer to s
 
 ---
 
-## 🧱 Tech Stack
+## Technology Stack
 
-* **SQL (MySQL / SQL Server)** → Data modeling & transformation
-* **Google Sheets** → Data storage & processing layer
-* **Looker Studio** → Dashboard visualization
-* **Apps Script (JavaScript)** → Automation
-* **OpenAI API** → AI-generated insights
-
----
-
-## 🏗️ Data Pipeline
-
-```text
-Raw Data → SQL → Google Sheets → Apps Script (AI) → Looker Dashboard
-```
-```text
-Raw Data → MySQL → Looker Dashboard
-```
+* SQL (MySQL / SQL Server) for data modeling and transformation
+* Google Sheets as a lightweight data layer
+* Looker Studio for visualization and dashboard design
+* Google Apps Script for automation
+* OpenAI API for generating concise performance insights
 
 ---
 
-## 📊 Dashboard Structure
+## Data Pipeline
+
+Raw Data → SQL Processing → Google Sheets → Apps Script → Looker Studio Dashboard
+
+This pipeline reflects a simplified but practical analytics workflow, suitable for small to mid-scale data environments.
+
+---
+
+## Dashboard Structure
 
 ### 1. Business Overview
 
-* Revenue vs Cost trend
-* ROAS performance
+Provides a high-level summary of performance:
+
+* Revenue and Cost trends
+* ROAS and Conversion Rate
 * Channel contribution
+
+---
 
 ### 2. Marketing Performance
 
-* CTR & Conversion Rate trends
-* Funnel performance
-* Campaign comparison table (with AI insights)
+Focuses on campaign and channel efficiency:
+
+* CTR and Conversion Rate trends
+* Cost distribution across channels
+* Campaign performance table with automated insights
+
+---
 
 ### 3. Website Analytics
 
-* Traffic trend (Users vs Sessions)
-* Engagement analysis
-* Channel quality evaluation
+Evaluates traffic and engagement quality:
+
+* Sessions and Users trend
+* Bounce Rate and engagement comparison
+* Channel-level traffic quality
+
+---
 
 ### 4. Customer Analytics
 
-* Customer value segmentation
+Explores customer value and segmentation:
+
 * Revenue per customer
-* Customer quality by channel
+* Customer value segmentation
+* Geographic and demographic breakdown
+* Customer quality by acquisition channel
 
 ---
 
-## 📷 Dashboard Preview
+## Insight Logic
 
-![Dashboard](dashboard/screenshots.png)
+The insight layer is based on simple, interpretable business rules:
 
----
+* ROAS greater than 3 combined with strong conversion indicates effective campaigns
+* ROAS below 2.5 suggests underperformance
+* High CPC or CPA with low conversion indicates inefficient traffic
 
-## 🤖 AI Insight Logic
+These signals are translated into short, structured insights to improve readability within the dashboard.
 
-Insights are generated based on business rules:
-
-* **ROAS > 3 & CR > 4%** → Strong performance
-* **ROAS < 2.5** → Weak performance
-* **High CPC/CPA + low CR** → Inefficient traffic
-
-The AI converts these signals into concise business insights.
+This approach prioritizes clarity and usability over complex modeling.
 
 ---
 
-## ⚠️ Setup Instructions
+## Setup Instructions
 
 1. Clone this repository
-2. Connect your data source (Google Sheets / SQL)
-3. Add your OpenAI API key in Apps Script:
+2. Prepare your data source (Google Sheets or SQL database)
+3. Open the Apps Script file and insert your OpenAI API key:
 
 ```javascript
 const apiKey = "YOUR_API_KEY";
 ```
 
-4. Run the script to generate AI insights
+4. Run the script to generate insights
+5. Connect the Google Sheet to Looker Studio
 
 ---
 
-## 🔐 Note
+## Data Disclaimer
 
-This project does **not include real production data**.
-Sample data is provided for demonstration purposes only.
-
----
-
-## 👤 Author
-
-**Nguyen Trung**
+This project uses simulated or sample data for demonstration purposes.
+No real production data is included.
 
 ---
 
-## 💡 Why This Project Stands Out
+## Author
 
-* Combines **BI + AI** (not just dashboarding)
-* Demonstrates **end-to-end data workflow**
-* Focuses on **actionable insights, not just metrics**
+Nguyen Thanh Trung
+[www.linkedin.com/in/thanh-trung-nguyen-hcmute]
 
 ---
 
-## ⭐ Future Improvements
+## Project Significance
 
-* Predictive analytics (forecasting campaigns)
-* Real-time data pipeline integration
-* Advanced customer segmentation (RFM / LTV)
+This project demonstrates:
+
+* A complete analytics workflow from raw data to dashboard
+* The ability to structure and model marketing data effectively
+* Practical integration of automation into analytics processes
+* A focus on transforming data into actionable insights
+
+Rather than emphasizing complex modeling, the project highlights clarity, usability, and business relevance.
+
+---
+
+## Future Improvements
+
+* Integration with real-time data sources
+* Predictive analytics for campaign performance
+* Advanced customer segmentation (RFM, LTV)
+* Alert system for performance anomalies
+* Improved automation of insight generation
+
+---
+
+## Notes
+
+The AI component in this project is experimental and intended to support interpretation rather than replace analytical judgment.
+
+The primary value of the dashboard remains in its structured data modeling and clear visualization design.
