@@ -158,7 +158,7 @@ No real production data is included.
 ## Author
 
 Nguyen Thanh Trung
-[www.linkedin.com/in/thanh-trung-nguyen-hcmute]
+*[Linkedin](www.linkedin.com/in/thanh-trung-nguyen-hcmute)
 
 ---
 
