@@ -12,7 +12,7 @@ The system combines data modeling, transformation, and visualization into a unif
 
 ## Live Resources
 
-* Looker Studio Dashboard: [https://datastudio.google.com/reporting/4be8c7da-98e5-43d1-9f91-5c3a459cd96f]
+* Looker Studio Dashboard: [View Dashboard](https://datastudio.google.com/reporting/4be8c7da-98e5-43d1-9f91-5c3a459cd96f)
 ---
 
 ## Project Objectives
