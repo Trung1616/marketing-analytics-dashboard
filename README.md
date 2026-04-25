@@ -1,4 +1,4 @@
-# Marketing Analytics Dashboard with AI Insights
+# Marketing Analytics Dashboard with Insight Automation
 
 ## Overview
 
